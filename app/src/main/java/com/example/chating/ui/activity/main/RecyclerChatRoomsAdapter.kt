@@ -1,9 +1,24 @@
-package com.example.chating
-
-import android.content.Context
-import androidx.recyclerview.widget.RecyclerView
-import com.google.firebase.auth.FirebaseAuth
-
+//package com.example.chating.ui.activity.main
+//
+//import android.content.Context
+//import android.content.Intent
+//import android.view.LayoutInflater
+//import android.view.ViewGroup
+//import android.widget.Toast
+//import androidx.appcompat.app.AppCompatActivity
+//import androidx.recyclerview.widget.RecyclerView
+//import com.example.chating.ChatRoomActivity
+//import com.example.chating.R
+//import com.example.chating.databinding.ListChatroomItemBinding
+//import com.example.chating.model.ChatRoom
+//import com.example.chating.model.User
+//import com.google.firebase.auth.FirebaseAuth
+//import com.google.firebase.database.DataSnapshot
+//import com.google.firebase.database.DatabaseError
+//import com.google.firebase.database.FirebaseDatabase
+//import com.google.firebase.database.ValueEventListener
+//import com.google.firebase.database.getValue
+//
 //class RecyclerChatRoomsAdapter(val context: Context) :
 //    RecyclerView.Adapter<RecyclerChatRoomsAdapter.ViewHolder>() {
 //    var chatRooms: ArrayList<ChatRoom> = arrayListOf()   //채팅방 목록
@@ -22,7 +37,7 @@ import com.google.firebase.auth.FirebaseAuth
 //                override fun onDataChange(snapshot: DataSnapshot) {
 //                    chatRooms.clear()
 //                    for (data in snapshot.children) {
-//                        chatRooms.add(data.getValue<ChatRoom>()!!)
+//                        chatRooms.add(data.getValue<ChatRoom>()!! as ChatRoom)
 //                        chatRoomKeys.add(data.key!!)
 //                    }
 //                    notifyDataSetChanged()
@@ -47,7 +62,7 @@ import com.google.firebase.auth.FirebaseAuth
 //                    for (data in snapshot.children) {
 //                        holder.chatRoomKey = data.key.toString()!!             //채팅방 키 초기화
 //                        holder.opponentUser = data.getValue<User>()!!         //상대방 정보 초기화
-//                        holder.txt_name.text = data.getValue<User>()!!.name.toString()     //상대방 이름 초괴화
+//                        holder.txt_name = data.getValue<User>()!!.name.toString()     //상대방 이름 초괴화
 //                    }
 //                }
 //            })

@@ -1,4 +1,4 @@
-package com.example.chating
+package com.example.chating.ui.activity.signupactivity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,6 +7,7 @@ import android.util.Log
 import android.widget.Toast
 import com.example.chating.databinding.ActivitySignUpBinding
 import com.example.chating.model.User
+import com.example.chating.ui.activity.main.MainActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.FirebaseDatabase
 

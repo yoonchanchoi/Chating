@@ -1,4 +1,4 @@
-package com.example.chating
+package com.example.chating.ui.activity.loginactivity
 
 import android.content.Intent
 import android.content.SharedPreferences
@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
+import com.example.chating.ui.activity.signupactivity.SignUpActivity
 import com.example.chating.databinding.ActivityLoginBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser

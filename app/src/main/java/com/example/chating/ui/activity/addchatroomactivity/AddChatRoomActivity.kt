@@ -1,4 +1,4 @@
-package com.example.chating
+package com.example.chating.ui.activity.addchatroomactivity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -10,7 +10,7 @@ import android.os.Bundle
 //    lateinit var firebaseDatabase:DatabaseReference
 //    lateinit var recycler_people:RecyclerView
 //
-//    override fun onCreate(savedInstanceState: Bundle?) {
+//    override fun onCreate(savedInstanceStaate: Bundle?) {
 //        super.onCreate(savedInstanceState)
 //        binding = ActivityAddChatroomBinding.inflate(layoutInflater)
 //        setContentView(binding.root)
